@@ -2,8 +2,6 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from PIL import Image
-pip install link-button
-from link_button import link_button
 
 # Load the image
 image = Image.open('airbnblogo.svg.png')
@@ -28,8 +26,11 @@ st.image(image_new)
 st.markdown("Welcome to our charming Airbnb! We're thrilled to introduce you to our space that is the perfect getaway for those seeking a comfortable and peaceful stay. \n\nOur home is designed to cater to all your needs, and we take pride in providing our guests with an exceptional experience. As you step inside, you'll be welcomed by a cozy atmosphere that exudes warmth and relaxation. \n\nOne of the standout features of our Airbnb is the stunning visualization with NumPy. This unique feature allows you to explore different areas and visualize them on a map, giving you an immersive experience that you won't find anywhere else. \n\nWhether you're a solo traveler or a group of friends, our space is ideal for those looking for a comfortable and memorable stay. So why wait? Book your stay with us now and get ready to experience the best that Airbnb has to offer! \n\nHere we can see the dataframe created during this week's project.")
 
 # AN EDIT BY DANUSH KHANNA
-add_selectbox = st.sidebar.link_button(
-    "An edit by Danush Khanna", "https://www.linkedin.com/in/danush-khanna-ba4240239/")
+if st.sidebar.button("An edit by Danush Khanna"):
+    js = "window.open('https://www.linkedin.com/in/danush-khanna-ba4240239/')"
+    html = '<img src onerror="{}">'.format(js)
+    st.sidebar.markdown(html, unsafe_allow_html=True)
+
 
 # Read dataframe
 dataframe = pd.read_csv(
