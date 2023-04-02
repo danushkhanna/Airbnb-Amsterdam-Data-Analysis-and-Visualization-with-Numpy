@@ -16,7 +16,7 @@ st.markdown(
 
 image=Image.open('amsterdam.png')
 width=750
-height=300
+height=500
 image_new=image.resize((width,height))
 st.image(image_new)
 
