@@ -6,6 +6,13 @@ from pandas.api.types import (
     is_numeric_dtype,
     is_object_dtype
 )
+from PIL import Image
+
+# Load the image
+image = Image.open('airbnblogo.svg.png')
+st.image(image, width=150)
+
+st.write("<div align='left'><span style='color:#FF5A5F; font-size: 15px;'>Amsterdam</span></div>", unsafe_allow_html=True)
 st.markdown(
     f"<h1 style='color:#FF5A5F;'>Investigation with Pandas 📈</h1>", 
     unsafe_allow_html=True
