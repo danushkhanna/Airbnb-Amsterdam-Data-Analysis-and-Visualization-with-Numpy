@@ -1,6 +1,12 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from PIL import Image
+
+image = Image.open('airbnblogo.svg.png')
+
+# Create a sidebar column
+st.sidebar.image(image, width=150, caption='Airbnb Logo')
 
 # Display title and text
 st.markdown(
