@@ -5,6 +5,7 @@ from PIL import Image
 
 # Load the image
 image = Image.open('airbnblogo.svg.png')
+st.image(image, width=150)
 
 # Create a 2-column layout
 col1, col2 = st.beta_columns([2, 1])
@@ -18,8 +19,8 @@ caption_position = int(image_width / 2)
 
 # Display the caption in the second column, below the middle of the image
 with col2:
-    st.write("<div align='center'><span style='color:#FF5A5F; font-size: 1px;'>Amsterdam</span></div>", unsafe_allow_html=True)
-    st.markdown(f"<div style='text-align:center'><span style='font-size: 1px;'>&#x25BC;</span></div>", unsafe_allow_html=True)
+    st.write("<div align='center'><span style='color:#FF5A5F; font-size: 10px;'>Amsterdam</span></div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align:center'><span style='font-size: 10px;'>&#x25BC;</span></div>", unsafe_allow_html=True)
 
 # Display title and text
 st.markdown(
