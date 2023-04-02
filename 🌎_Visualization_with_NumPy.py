@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 # Load the image
-image = Image.open('airbnblogo.png')
+image = Image.open('airbnblogo.svg.png')
 
 # Create a 2-column layout
 col1, col2 = st.beta_columns([2, 1])
