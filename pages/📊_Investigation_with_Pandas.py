@@ -15,8 +15,10 @@ st.image(image, width=150)
 st.write("<div align='left'><span style='color:#FF5A5F; font-size: 15px;'>Amsterdam</span></div>", unsafe_allow_html=True)
 
 st.markdown(
-    "<h1 style='color:#484848;'>Investigation with</h1>"
-    "<h1 style='color:#FF5A5F; margin-left: 10px;'>Pandas 📈</h1>", 
+    "<div style='display: flex; align-items: center;'>"
+    "<h1 style='color:#484848; margin-right: 10px;'>Investigation with</h1>"
+    "<h1 style='color:#FF5A5F;'>Pandas 📈</h1>"
+    "</div>", 
     unsafe_allow_html=True
 )
 
