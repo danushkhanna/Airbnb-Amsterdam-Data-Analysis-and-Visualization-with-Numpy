@@ -8,7 +8,6 @@ image = Image.open('airbnblogo.svg.png')
 st.image(image, width=150)
 
 st.write("<div align='center'><span style='color:#FF5A5F; font-size: 10px;'>Amsterdam</span></div>", unsafe_allow_html=True)
-st.markdown(f"<div style='text-align:center'><span style='font-size: 10px;'>&#x25BC;</span></div>", unsafe_allow_html=True)
 
 # Display title and text
 st.markdown(
