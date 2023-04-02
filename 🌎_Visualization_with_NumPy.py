@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Display title and text
-st.title("Amsterdam Airbnb Market: Data Analysis and Visualization with NumPy 🗺️")
+st.title("Data Analysis and Visualization with NumPy 🗺️")
 st.markdown("Here we can see the dataframe created during this weeks project.")
 
 st.sidebar.success("Select a demo above.")
