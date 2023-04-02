@@ -13,7 +13,7 @@ image = Image.open('airbnblogo.svg.png')
 st.image(image, width=150)
 
 image=Image.open('rooms.png')
-st.image(image, width=300)
+st.image(image, width=5000)
 
 st.write("<div align='left'><span style='color:#FF5A5F; font-size: 15px;'>Amsterdam</span></div>", unsafe_allow_html=True)
 st.markdown(
