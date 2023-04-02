@@ -7,7 +7,7 @@ from PIL import Image
 image = Image.open('airbnblogo.svg.png')
 
 # Create a sidebar column and display the image at a larger size
-st.sidebar.image(image, width=150, caption='airbnb Amsterdam')
+st.image(image, width=150, caption='airbnb Amsterdam')
 
 # Display title and text
 st.markdown(
