@@ -4,10 +4,10 @@ import streamlit as st
 from PIL import Image
 
 # Load the image with high enough resolution
-image = Image.open('airbnblogo.svg.png')
+image = Image.open('airbnblogo.svg.png').convert("RGB")
 
 # Create a sidebar column and display the image at a larger size
-st.sidebar.image(image, width=400, caption='airbnb Amsterdam')
+st.sidebar.image(image, width=150, caption='airbnb Amsterdam')
 
 # Display title and text
 st.markdown(
