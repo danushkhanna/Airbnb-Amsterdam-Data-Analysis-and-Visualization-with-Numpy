@@ -91,7 +91,6 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-df = pd.read_csv(
-    "WK2_Airbnb_Amsterdam_listings_proj_solution.csv", index_col=0
+df = pd.read_csv("Airbnb-Amsterdam-Data-Analysis-and-Visualization-with-Numpy/pages/WK2_Airbnb_Amsterdam_listings_proj_solution.csv", index_col=0
 )
 st.dataframe(filter_dataframe(df))
