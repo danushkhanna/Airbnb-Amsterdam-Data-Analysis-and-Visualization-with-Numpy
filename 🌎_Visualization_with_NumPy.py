@@ -3,10 +3,11 @@ import plotly.express as px
 import streamlit as st
 from PIL import Image
 
-image = Image.open('airbnblogo.svg.png')
+# Load the image with high enough resolution
+image = Image.open('airbnblogo.svg.png').convert("RGB").resize((3840, 2160))
 
-# Create a sidebar column
-st.sidebar.image(image, width=150, caption='Airbnb Logo')
+# Create a sidebar column and display the image at a larger size
+st.sidebar.image(image, width=400, caption='airbnb Amsterdam')
 
 # Display title and text
 st.markdown(
