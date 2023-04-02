@@ -7,6 +7,8 @@ from pandas.api.types import (
     is_object_dtype
 )
 
+st.title("Filter your Airbnb Listings dataframe!")
+
 st.set_page_config(page_title="Filter your Airbnb Listings dataframe!")
 
 st.write(
