@@ -18,7 +18,10 @@ st.markdown(
     unsafe_allow_html=True)
 
 image=Image.open('rooms.png')
-st.image(image, width=750)
+width=750
+height=500
+image_new=image.resize((width,height))
+st.image(image_new)
 
 
 st.write(
