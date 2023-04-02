@@ -9,6 +9,8 @@ st.image(image, width=150)
 
 st.write("<div align='center'><span style='color:#FF5A5F; font-size: 20px;'>Amsterdam</span></div>", unsafe_allow_html=True)
 
+st.title("Visualization with NumPy 🌎")
+
 st.markdown("Here we can see the dataframe created during this weeks project.")
 
 st.sidebar.success("Select a demo above.")
