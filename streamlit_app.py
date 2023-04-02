@@ -6,6 +6,8 @@ import streamlit as st
 st.title("Week 1 - Data and visualization")
 st.markdown("Here we can see the dataframe created during this weeks project.")
 
+st.sidebar.success("Select a demo above.")
+
 # Read dataframe
 dataframe = pd.read_csv(
     "WK1_Airbnb_Amsterdam_listings_proj_solution.csv",
