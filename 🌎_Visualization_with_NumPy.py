@@ -3,12 +3,23 @@ import plotly.express as px
 import streamlit as st
 from PIL import Image
 
-# Load the image with high enough resolution
-image = Image.open('airbnblogo.svg.png')
+# Load the image
+image = Image.open('airbnblogo.png')
 
-# Create a sidebar column and display the image at a larger size
-st.image(image, width=150)
-st.write("<span style='color:#FF5A5F'>Amsterdam</span>", unsafe_allow_html=True)
+# Create a 2-column layout
+col1, col2 = st.beta_columns([2, 1])
+
+# Display the image in the first column
+col1.image(image, use_column_width=True)
+
+# Calculate the position of the caption
+image_width, _ = image.size
+caption_position = int(image_width / 2)
+
+# Display the caption in the second column, below the middle of the image
+with col2:
+    st.write("<div align='center'><span style='color:#FF5A5F; font-size: 24px;'>Amsterdam</span></div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align:center'><span style='font-size: 30px;'>&#x25BC;</span></div>", unsafe_allow_html=True)
 
 # Display title and text
 st.markdown(
