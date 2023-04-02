@@ -14,7 +14,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("Welcome to our charming Airbnb! We're thrilled to introduce you to our space that is the perfect getaway for those seeking a comfortable and peaceful stay. Our home is designed to cater to all your needs, and we take pride in providing our guests with an exceptional experience. As you step inside, you'll be welcomed by a cozy atmosphere that exudes warmth and relaxation. One of the standout features of our Airbnb is the stunning visualization with NumPy. This unique feature allows you to explore different areas and visualize them on a map, giving you an immersive experience that you won't find anywhere else. Whether you're a solo traveler or a group of friends, our space is ideal for those looking for a comfortable and memorable stay. So why wait? Book your stay with us now and get ready to experience the best that Airbnb has to offer! Here we can see the dataframe created during this weeks project.")
+st.markdown("Welcome to our charming Airbnb! We're thrilled to introduce you to our space that is the perfect getaway for those seeking a comfortable and peaceful stay. 
+Our home is designed to cater to all your needs, and we take pride in providing our guests with an exceptional experience. As you step inside, you'll be welcomed by a cozy atmosphere that exudes warmth and relaxation. 
+One of the standout features of our Airbnb is the stunning visualization with NumPy. This unique feature allows you to explore different areas and visualize them on a map, giving you an immersive experience that you won't find anywhere else. 
+Whether you're a solo traveler or a group of friends, our space is ideal for those looking for a comfortable and memorable stay. So why wait? Book your stay with us now and get ready to experience the best that Airbnb has to offer! 
+Here we can see the dataframe created during this weeks project.")
 
 st.sidebar.success("Select a demo above.")
 
