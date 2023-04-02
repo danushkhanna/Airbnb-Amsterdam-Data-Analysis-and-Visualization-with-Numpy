@@ -12,13 +12,16 @@ from PIL import Image
 image = Image.open('airbnblogo.svg.png')
 st.image(image, width=150)
 
-image=Image.open('rooms.png')
-st.image(image, width=750)
-
 st.write("<div align='left'><span style='color:#FF5A5F; font-size: 15px;'>Amsterdam</span></div>", unsafe_allow_html=True)
 st.markdown(
     f"<h1 style='color:#FF5A5F;'>Investigation with Pandas 📈</h1>", 
     unsafe_allow_html=True
+    
+    
+image=Image.open('rooms.png')
+st.image(image, width=750)
+
+    
 )
 st.write(
     """Welcome to our one-of-a-kind Airbnb! We're excited to introduce you to our space that offers a truly unique experience for data enthusiasts.
