@@ -2,7 +2,6 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from PIL import Image
-pip install link-button
 from link_button import link_button
 
 # Load the image
