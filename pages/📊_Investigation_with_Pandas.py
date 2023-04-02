@@ -18,9 +18,16 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.write(
-    """This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
-    Can you think of ways to extend it with visuals?
-    """
+    """Welcome to our one-of-a-kind Airbnb! We're excited to introduce you to our space that offers a truly unique experience for data enthusiasts.
+
+Our home is designed to cater to all your needs, and we take pride in providing our guests with an exceptional experience. As you step inside, you'll be immersed in a world of data investigation with pandas. With our expertly crafted setup, you can investigate and analyze complex datasets with ease.
+
+We believe that our Airbnb is the perfect space for data enthusiasts looking to enhance their skills and knowledge. Our pandas-based data investigation setup offers an unparalleled learning experience, and we're confident that you'll walk away with a newfound appreciation for data analysis.
+
+Whether you're a seasoned data scientist or just starting your journey, our space is ideal for those looking to delve into the world of data investigation with pandas. So why wait? Book your stay with us now and discover the power of pandas for yourself!
+
+This app is based on this blog [here](https://blog.streamlit.io/auto-generate-a-dataframe-filtering-ui-in-streamlit-with-filter_dataframe/). 
+Can you think of ways to extend it with visuals?"""
 )
 
 
