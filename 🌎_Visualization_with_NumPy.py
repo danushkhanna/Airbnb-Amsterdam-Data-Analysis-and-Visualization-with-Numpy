@@ -7,13 +7,8 @@ from PIL import Image
 image = Image.open('airbnblogo.svg.png')
 st.image(image, width=150)
 
-st.write("<div align='center'><span style='color:#FF5A5F; font-size: 10px;'>Amsterdam</span></div>", unsafe_allow_html=True)
+st.write("<div align='center'><span style='color:#FF5A5F; font-size: 20px;'>Amsterdam</span></div>", unsafe_allow_html=True)
 
-# Display title and text
-st.markdown(
-    f"<h1 style='color:#FF5A5F;'>Visualization with NumPy 🗺️</h1>", 
-    unsafe_allow_html=True
-)
 st.markdown("Here we can see the dataframe created during this weeks project.")
 
 st.sidebar.success("Select a demo above.")
