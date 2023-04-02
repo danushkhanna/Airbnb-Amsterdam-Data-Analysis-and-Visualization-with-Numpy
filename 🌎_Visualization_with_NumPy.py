@@ -18,8 +18,8 @@ caption_position = int(image_width / 2)
 
 # Display the caption in the second column, below the middle of the image
 with col2:
-    st.write("<div align='center'><span style='color:#FF5A5F; font-size: 24px;'>Amsterdam</span></div>", unsafe_allow_html=True)
-    st.markdown(f"<div style='text-align:center'><span style='font-size: 30px;'>&#x25BC;</span></div>", unsafe_allow_html=True)
+    st.write("<div align='center'><span style='color:#FF5A5F; font-size: 1px;'>Amsterdam</span></div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align:center'><span style='font-size: 1px;'>&#x25BC;</span></div>", unsafe_allow_html=True)
 
 # Display title and text
 st.markdown(
