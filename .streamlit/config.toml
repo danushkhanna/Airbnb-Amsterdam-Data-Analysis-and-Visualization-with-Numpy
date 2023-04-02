@@ -1,5 +1,5 @@
 [theme]
-backgroundColor="MidnightBlue"
+backgroundColor="#fff"
 secondaryBackgroundColor="white"
 textColor="Thistle"
 font="monospace"
