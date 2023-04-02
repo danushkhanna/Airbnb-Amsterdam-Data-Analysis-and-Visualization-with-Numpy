@@ -3,7 +3,10 @@ import plotly.express as px
 import streamlit as st
 
 # Display title and text
-st.title("Visualization with NumPy 🗺️")
+st.markdown(
+    f"<h1 style='color:#FF5A5F;'>Visualization with NumPy 🗺️</h1>", 
+    unsafe_allow_html=True
+)
 st.markdown("Here we can see the dataframe created during this weeks project.")
 
 st.sidebar.success("Select a demo above.")
