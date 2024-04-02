@@ -20,10 +20,6 @@ This project requires the following dependencies:
 - Implementation of supervised machine learning using scikit-learn for linear regression.
 - Implementation of unsupervised machine learning using scikit-learn for K-Means clustering.
 
-## Installation
-
-To install the dependencies for this project, run:
-
 ## Usage
 
 To run the project, use the following link:
