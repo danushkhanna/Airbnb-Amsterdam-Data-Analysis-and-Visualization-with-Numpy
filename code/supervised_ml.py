@@ -1,13 +1,13 @@
 
 
 
-#In[1]:
+#
 
 %%capture
 !pip install numpy streamlit pandas==1.5.2 scikit-learn==1.2.0
 
 
-#In[1]:
+#
 
 
 
