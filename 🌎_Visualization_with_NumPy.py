@@ -34,7 +34,7 @@ st.sidebar.button("An edit by Danush Khanna", on_click=lambda: webbrowser.open_n
 
 # Read dataframe
 dataframe = pd.read_csv(
-    "WK1_Airbnb_Amsterdam_listings_proj_solution.csv",
+    "Airbnb_Amsterdam_1.csv",
     names=[
         "Airbnb Listing ID",
         "Price",
